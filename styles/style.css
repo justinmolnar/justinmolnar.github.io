@@ -10,6 +10,14 @@ body {
     height: 100vh;
 }
 
+.icon{
+    font-size: 2.5rem;
+}
+
+header{
+    padding: 2rem 0;
+}
+
 h1 {
     text-align: center;
     Font-Family: 'Julius Sans One', Sans-Serif;
@@ -35,6 +43,13 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+    color:#111;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color:#999;
 }
 
 article, header, footer {
