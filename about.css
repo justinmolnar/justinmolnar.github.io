@@ -1,0 +1,47 @@
+body {
+    background-image:url(images/bodyBg.jpg);
+    background-color:#fff;
+}
+#container {
+    position:relative;
+    width:200px;
+    height:200px;
+    overflow:hidden;
+    border:5px double #000;
+    background-color:#fff;
+    margin:100px auto 0 auto;
+}
+#div1 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:200px;
+    height:106px;
+}
+#div2 {
+    position:absolute;
+    left:200px;
+    top:0px;
+    width:200px;
+    height:106px;
+}
+ #div3 {
+    position:absolute;
+    left:200px;
+    top:0px;
+    width:200px;
+    height:106px;
+    }
+ #div4 {
+    position:absolute;
+    left:200px;
+    top:0px;
+    width:200px;
+    height:106px;
+    }
+
+img {
+    border:1px solid #000;
+    margin:0px;
+    float:left;
+}

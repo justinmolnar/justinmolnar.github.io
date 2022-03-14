@@ -35,8 +35,49 @@
         </article>
     </div>
 
+<div id="container">
 
+    <div id="div1">
+        <img src="//www.html.am/images/image-codes/milford_sound_t.jpg" width="225" height="151" alt="Photo of Milford Sound in New Zealand" />
+    
+    </div>
+    
+    <div id="div2">
+    <img src="//www.html.am/images/image-codes/milford_sound_t.jpg" width="225" height="151" alt="Photo of Milford Sound in New Zealand" />
+    </div>
+        
+        <div id="div3">
+    <img src="//www.html.am/images/image-codes/milford_sound_t.jpg" width="225" height="151" alt="Photo of Milford Sound in New Zealand" />
+    </div>
+        <div id="div4">
+    <img src="//www.html.am/images/image-codes/milford_sound_t.jpg" width="225" height="151" alt="Photo of Milford Sound in New Zealand" />
+    </div>
+    
+    </div>
     
 </div>
+
+<script type="text/javascript">
+    var m=0;
+    var n=200;
+    var speed=10;
+  function scrollPics() {
+       document.getElementById('div1').style.left=m+'px';
+       document.getElementById('div2').style.left=n+'px';
+     m--;
+     n--;
+  if(m==-200) {
+     m=200;
+   }
+  if(n==-200) {
+     n=200;
+   }
+  setTimeout('scrollPics()',speed);
+   } 
+  window.onload=function() {
+     scrollPics();
+   }
+  </script>
+  
 </body>
 </html>
