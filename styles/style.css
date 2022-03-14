@@ -73,6 +73,7 @@ article {
     width: 60%;
     margin: auto;
     box-shadow: 10px 10px gray;
+    margin-bottom: 3rem;
 }
 
 .textimonial-text {
@@ -116,6 +117,14 @@ article {
 footer {
     padding: 3rem 0;
     line-height: 2rem;
+    font-size: 1.5rem;
+    
+}
+
+footer input, footer textarea {
+    line-height: 2rem;
+    font-size: 1.5rem;
+    margin: .5rem;
 }
 
 
