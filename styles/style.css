@@ -116,14 +116,13 @@ article {
 
 footer {
     padding: 3rem 0;
-    display:flex;
-    justify-content: left;  
+    font-size: 1.3rem;
 }
 
 footer input, footer textarea, footer button {
     line-height: 2rem;
     font-size: 1.5rem;
-    margin: .5rem 0;
+    margin: .5rem 0.3%;
     
 }
 
@@ -133,6 +132,13 @@ footer input, footer button {
 
 footer button {
     background-color: #999;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+footer button:hover {
+    background-color: #aaa;
+    cursor: pointer;
 }
 
 footer textarea {
