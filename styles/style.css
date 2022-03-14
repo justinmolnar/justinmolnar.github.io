@@ -116,15 +116,27 @@ article {
 
 footer {
     padding: 3rem 0;
+    display:flex;
+    justify-content: left;  
+}
+
+footer input, footer textarea, footer button {
     line-height: 2rem;
     font-size: 1.5rem;
+    margin: .5rem 0;
     
 }
 
-footer input, footer textarea {
-    line-height: 2rem;
-    font-size: 1.5rem;
-    margin: .5rem;
+footer input, footer button {
+    width: 32%;
+}
+
+footer button {
+    background-color: #999;
+}
+
+footer textarea {
+    width: 100%;
 }
 
 
