@@ -37,7 +37,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-article, header, .images {
+article, header, footer {
     width: 85%;
     margin: 0 auto;
 }
@@ -49,23 +49,6 @@ article {
 
 .bg {
     background-color: #F5F5F5;
-}
-
-.images {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.images-image {
-    height: 300px;
-    padding: 0.3em;
-    transition: 0.3s;
-}
-
-.images-image:hover {
-    filter: brightness(70%);
 }
 
 
@@ -115,10 +98,15 @@ article {
     margin: auto;
 }
 
+footer {
+    padding: 3rem 0;
+    line-height: 2rem;
+}
+
 
 @media screen and (min-width : 1024px){
 
-    article, header, .images {
+    article, header, footer {
         width: 60%;
         margin: 0 auto;
     }
