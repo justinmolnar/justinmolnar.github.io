@@ -64,6 +64,19 @@ article {
     background-color: #ddd;
 }
 
+html { 
+    scroll-behavior: smooth;
+}
+
+p a {
+    text-decoration: none;
+    color:#111;
+    transition: 0.3s;
+}
+
+p a:hover {
+    color: #555;
+}
 
 
 .testimonial {
