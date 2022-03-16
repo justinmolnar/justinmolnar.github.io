@@ -42,13 +42,13 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color:#555;
+    color:#333;
     transition: 0.3s;
 }
 
 nav ul li a:hover {
     text-decoration: none;
-    color:#999;
+    color:#777;
 }
 
 article, header, footer {
@@ -71,12 +71,12 @@ html {
 
 p a {
     text-decoration: none;
-    color:#333;
+    color:#222;
     transition: 0.3s;
 }
 
 p a:hover {
-    color: #555;
+    color: #444;
 }
 
 
@@ -151,7 +151,7 @@ footer button {
 }
 
 footer button:hover {
-    background-color: #555;
+    background-color: #777;
     cursor: pointer;
 }
 
